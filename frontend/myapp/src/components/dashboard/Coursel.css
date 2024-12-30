@@ -1,0 +1,15 @@
+
+.img1{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+  
+
+@media (max-width: 768px) {
+    .img1 {
+        height: 40vh;
+    }
+    
+}

@@ -1,0 +1,39 @@
+.img-div{
+    height: 40vh;
+    width: 20vw;
+}
+@media (max-width: 768px) {
+    .img-div {
+        height: 20vh;
+        width: 20vw;
+    }
+    
+}
+
+
+
+.container {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 columns for laptop screen */
+    gap: 10px; /* adjust the gap between the divs as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+        text-align: center;
+      grid-template-columns: repeat(2, 1fr); /* 3 columns for mobile screen */
+    }
+  }
+  
+  .item {
+    text-decoration: none;
+    color: black;
+    width: 30vw;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(246, 247, 246);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
