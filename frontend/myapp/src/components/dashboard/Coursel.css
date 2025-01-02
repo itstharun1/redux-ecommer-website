@@ -1,15 +1,28 @@
 
 .img1{
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px;
+    width: 100%;
+    display: block;
 }
+  
+
+/* App.css */
+.image-container {
+    height: 70vh;
+    max-width: 100%;
+    margin: 10px;
+    border: 10px;
+  }
+
   
 
 @media (max-width: 768px) {
     .img1 {
+    width: 100%;
+    display: block;
+    }
+    .img1{
         height: 40vh;
     }
     
 }
+

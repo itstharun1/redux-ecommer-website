@@ -1,0 +1,29 @@
+.div-card{
+    padding: 40px;
+    width: 50vw;
+    text-align: center;
+    font-weight: bold;
+}
+.new-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-card{
+    margin: 10px;
+    height: 40vh;
+}
